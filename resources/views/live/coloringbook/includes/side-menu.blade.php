@@ -1,4 +1,4 @@
-
+<!-- Coloring Book Side Main Menu -->
 <aside class="navbar navbar-vertical navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-menu">
