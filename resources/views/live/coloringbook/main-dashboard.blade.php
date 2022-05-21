@@ -29,7 +29,7 @@
                         </h2>
 
                         <div class="page-pretitle">
-                            Coloring Book App
+                            Coloring Book App Dashboard
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@
         </div>
         <div class="page-body">
             <div class="container-xl">
-                <!-- Content here -->
+              @include('live.coloringbook.dashboard.colorbook-analytics')
             </div>
         </div>
         @include('live.includes.footer')

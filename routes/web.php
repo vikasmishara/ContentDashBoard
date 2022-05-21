@@ -24,5 +24,7 @@ Route::get('/coloring-book-sign-up',[DashboardController::class, 'coloring_book_
 Route::get('/coloring-book-forget-password',[DashboardController::class, 'coloring_book_forget_password'])->name('live.coloringbook.authentication.forget-password');
 
 Route::get('/coloring-book-main-dashboard',[DashboardController::class, 'coloring_book_main_dashboard'])->name('live.coloringbook.main-dashboard');
+Route::get('/coloring-book-main-categories',[DashboardController::class, 'coloring_book_main_categories'])->name('live.coloringbook.dashboard.categories');
+Route::get('/coloring-book-categories-content',[DashboardController::class, 'coloring_book_main_vector_content'])->name('live.coloringbook.dashboard.vector-content');
 
 Route::get('/changelog',[DashboardController::class, 'changelog'])->name('live.changelog');

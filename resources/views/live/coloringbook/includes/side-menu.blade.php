@@ -11,8 +11,8 @@
             </h1>
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="navbar-nav pt-lg-3">
-                    <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Dashboard</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Categories</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.main-dashboard')}}" ><span class="nav-link-title">Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.dashboard.categories')}}" ><span class="nav-link-title">Categories</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Content Grid</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Users</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Reports</span></a></li>

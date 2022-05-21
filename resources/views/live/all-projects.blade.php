@@ -1,4 +1,4 @@
-<div class="container-xl">
+
     <div class="row row-cards">
         <div class="col-md-6 col-xl-4">
             <div class="row row-cards">
@@ -144,4 +144,4 @@
             </div>
         </div>
     </div>
-</div>
+
