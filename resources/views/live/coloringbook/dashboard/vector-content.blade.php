@@ -25,10 +25,11 @@
                 <div class="row g-2 align-items-center">
                     <div class="col">
                         <h2 class="page-title">
-                            Daily New Vectors
+                            Daily New Category
                         </h2>
+
                         <div class="page-pretitle">
-                            <span class="bg-green-lt"> Vectors Uploaded in Daily New Categories</span>
+                            <span class="bg-green-lt"> SVGs Uploaded in Daily New Categories</span>
                         </div>
                     </div>
 
@@ -61,7 +62,8 @@
                                         </h3>
 
                                         <div class="text-muted">
-                                            Category Description Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti
+                                            Category Description Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit. Aperiam deleniti
                                             fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit
                                             velit vitae voluptatem.
                                         </div>
@@ -124,33 +126,129 @@
                 <!-- Category Detail Card Ends -->
 
                 <!-- Content Card Start Here -->
+
+
                 <div class="row row-cards">
+                    <!-- Vector-1 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <a href="#" class="d-block"><img src="{{asset('dist/static/photos/1b73704b282a8ec6.jpg')}}" class="card-img-top"></a>
+                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                                 class="card-img-top d-block">
+
                             <div class="card-body">
-                                <div class="d-flex align-items-center">
-                                    <div>
-                                        <div>Created </div>
-                                        <div class="text-muted">3 days ago</div>
-                                    </div>
-                                    <div class="ms-auto">
-                                        <a href="#" class="text-muted">
-                                            <!-- Download SVG icon from http://tabler-icons.io/i/eye -->
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="2" /><path d="M22 12c-2.667 4.667 -6 7 -10 7s-7.333 -2.333 -10 -7c2.667 -4.667 6 -7 10 -7s7.333 2.333 10 7" /></svg>
-                                            467
-                                        </a>
-                                        <a href="#" class="ms-3 text-muted">
-                                            <!-- Download SVG icon from http://tabler-icons.io/i/heart -->
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M19.5 13.572l-7.5 7.428l-7.5 -7.428m0 0a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572" /></svg>
-                                            67
-                                        </a>
-                                    </div>
+                                <!-- Vector title -->
+                                <div class="card-title bg-cyan-lt"> SVG Title Goes Here</div>
+                                <!-- Vector Details -->
+                                <div class="mb-2">
+                                    Created at: <strong> 2020-01-05 16:42:29 UTC</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Updated On: <strong> 2020-08-05 ( 14 Hours Ago )</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Content ID: <strong> A67hnjwe75rhRt</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Trade Type: <strong>NONE / ADS / COIN BASED</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Aspect Ratio: <strong>Square 1 : 1</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Design Type: <strong>SVG Type 1</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Download: <strong>856</strong>
+                                </div>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer">
+                                <div class="mb-2">
+                                    <a href="#" class="btn btn-success w-100">
+                                        OPEN SVG GRID
+                                    </a>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="#" class="btn btn-danger w-100">
+                                        DELETE THIS SVG
+                                    </a>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="{{route('live.coloringbook.dashboard.vector-content-details')}}" class="btn btn-primary w-100">
+                                        EDIT THIS SVG
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Vector-2 -->
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="card card-sm">
+                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/3d2998219313cd37.jpg')}}"
+                                 class="card-img-top d-block">
+
+                            <div class="card-body">
+                                <!-- Vector title -->
+                                <div class="card-title bg-cyan-lt"> SVG Title Goes Here</div>
+                                <!-- Vector Details -->
+                                <div class="mb-2">
+                                    Created at: <strong> 2020-01-05 16:42:29 UTC</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Updated On: <strong> 2020-08-05 ( 14 Hours Ago )</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Content ID: <strong> A67hnjwe75rhRt</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Trade Type: <strong>NONE / ADS / COIN BASED</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Aspect Ratio: <strong>Square 1 : 1</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Design Type: <strong>SVG Type 1</strong>
+                                </div>
+
+                                <div class="mb-2">
+                                    Download: <strong>856</strong>
+                                </div>
+                            </div>
+                            <!-- Card footer -->
+                            <div class="card-footer">
+                                <div class="mb-2">
+                                    <a href="#" class="btn btn-success w-100">
+                                        OPEN SVG GRID
+                                    </a>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="#" class="btn btn-danger w-100">
+                                        DELETE SVG VECTOR
+                                    </a>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="{{route('live.coloringbook.dashboard.vector-content-details')}}" class="btn btn-primary w-100">
+                                        EDIT SVG VECTOR
+                                    </a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
                 <!-- Content Card Ends Here -->
 
             </div>

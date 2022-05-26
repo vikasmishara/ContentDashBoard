@@ -23,6 +23,7 @@ class DashboardController extends Controller
 
     public function coloring_book_main_categories(){return view('live.coloringbook.dashboard.categories');}
     public function coloring_book_main_vector_content(){return view('live.coloringbook.dashboard.vector-content');}
+    public function coloring_book_main_vector_content_details(){return view('live.coloringbook.dashboard.vector-content-details');}
 
     public function changelog(){return view('live.changelog');}
 }
