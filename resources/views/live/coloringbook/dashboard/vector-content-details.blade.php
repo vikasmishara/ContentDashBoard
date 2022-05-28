@@ -53,16 +53,8 @@
                                     <div class="col">
                                         <div class="row g-2 align-items-center mt-1">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-primary w-100">
-                                                    Update Main SVG
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                        <div class="row g-2 align-items-center">
-                                            <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-primary w-100">
-                                                    Update Thumbnail
+                                                <a href="#" class="btn btn-primary w-100" data-bs-target="#edit-update-content-details" data-bs-toggle="modal">
+                                                    Edit this Content
                                                 </a>
                                             </div>
                                         </div>
@@ -83,7 +75,23 @@
                                             </div>
                                         </div>
 
+                                        <div class="row g-2 align-items-center">
+                                            <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
+                                                <a href="#" class="btn btn-success w-100">
+                                                    View Original SVG
+                                                </a>
+                                            </div>
+                                        </div>
+
                                     </div>
+                                </div>
+                                <div class="row align-items-center">
+                                        <div class="row g-2 align-items-center">
+                                            <div class="col-6 col-sm-4 col-md-2 col-xl dumped-tag">
+                                                    #tag1 #tag2
+
+                                            </div>
+                                        </div>
                                 </div>
                             </div>
                         </div>
@@ -119,129 +127,26 @@
                                 <div class="mb-2">
                                     Download: <strong>856</strong>
                                 </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row row-cards mb-2">
-
-                    <div class="col-md-6">
-                        <!-- Edit SVG Title -->
-                        <div class="card mb-2">
-                            <div class="card-body">
-                                <div class="row g-2 align-items-center">
-                                    <div class="col">
-                                        <h4 class="card-title m-0 bg-green-lt">SVG Title Goes Here</h4>
-
-                                    </div>
-                                    <div class="col-auto">
-                                        <a href="#" class=" btn-primary">
-                                           Change SVG Title
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Edit SVG Trade Type -->
-                        <div class="card mb-2" >
-                            <div class="card-body">
-                                <div class="row g-2 align-items-center">
-                                    <div class="col">
-                                        <h4 class="card-title m-0 bg-green-lt">SVG Trade Type NONE / ADS / COIN BASED</h4>
-
-                                    </div>
-                                    <div class="col-auto">
-                                        <a href="#" class=" btn-primary">
-                                            Change Trade Type
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Edit SVG Aspect ratio -->
-                        <div class="card mb-2" >
-                            <div class="card-body">
-                                <div class="row g-2 align-items-center">
-                                    <div class="col">
-                                        <h4 class="card-title m-0 bg-green-lt">SVG Aspect Ratio SQUARE 1:1 / PHONE-WALLPAPER 9:16 / DESKTOP-WALLPAPER 16:9 </h4>
-
-                                    </div>
-                                    <div class="col-auto">
-                                        <a href="#" class=" btn-primary">
-                                            Change Aspect Ratio
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Edit SVG Design ratio -->
-                        <div class="card mb-2" >
-                            <div class="card-body">
-                                <div class="row g-2 align-items-center">
-                                    <div class="col">
-                                        <h4 class="card-title m-0 bg-green-lt">SVG Design Type Design Type 1 / Design Type21 / Design Type 3 </h4>
-
-                                    </div>
-                                    <div class="col-auto">
-                                        <a href="#" class=" btn-primary">
-                                            Change Design Type
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-
-                    <!-- Edit SVG Tags -->
-                    <div class="col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="card-title bg-pink-lt">SVG Tags</div>
-                                <div class="mb-2">
-                                    Created at: <strong> 2020-01-05 16:42:29 UTC</strong>
-                                </div>
-
-                                <div class="mb-2">
-                                    Updated On: <strong> 2020-08-05 ( 14 Hours Ago )</strong>
-                                </div>
-
-                                <div class="mb-2">
-                                    Content ID: <strong> A67hnjwe75rhRt</strong>
-                                </div>
-
-                                <div class="mb-2">
-                                    Trade Type: <strong>NONE / ADS / COIN BASED</strong>
-                                </div>
-
-                                <div class="mb-2">
-                                    Aspect Ratio: <strong>Square 1 : 1</strong>
-                                </div>
-
-                                <div class="mb-2">
-                                    Design Type: <strong>SVG Type 1</strong>
-                                </div>
-
-                                <div class="mb-2">
-                                    Download: <strong>856</strong>
-                                </div>
                                 <div class="mb-2">
                                     <a href="#" class="btn btn-success w-100">
-                                      Add More Tags
+                                       VIEW CONTENT GRID FOR THIS SVG
                                     </a>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+
+                </div>
+
+
+
+
+                <div class="row row-cards mb-2">
+
+
+
+
                 </div>
             </div>
             <!-- Category Detail Card Ends -->
@@ -249,7 +154,11 @@
     </div>
     @include('live.includes.footer')
 </div>
-</div>
+
+@include('live.coloringbook.modals.content.sucess-alert-content')
+@include('live.coloringbook.modals.content.error-alert-content')
+@include('live.coloringbook.modals.content.delete-content-alert')
+@include('live.coloringbook.modals.content.edit-update-content-details')
 <!-- Libs JS -->
 <!-- Tabler Core -->
 @include('live.includes.bottom-scripts')

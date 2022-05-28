@@ -18,7 +18,7 @@
 <body >
 <div class="page">
    @include('live.includes.top-navigation-header')
-  @include('live.includes.main-navigation')
+
     <div class="page-wrapper">
         <div class="container-xl">
             <!-- Page title -->

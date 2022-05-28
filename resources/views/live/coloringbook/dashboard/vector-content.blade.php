@@ -71,17 +71,17 @@
                                     <div class="mt-3">
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-primary w-100">
+                                                <a href="#" class="btn btn-primary w-100" data-bs-target="#add-content-to-category-modal" data-bs-toggle="modal">
                                                     Add Content
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-success w-100">
+                                                <a href="#" class="btn btn-success w-100" data-bs-toggle="modal" data-bs-target="#edit-category-details-modal">
                                                     Edit Category Details
                                                 </a>
                                             </div>
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-danger w-100">
+                                                <a href="#" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#delete-category-modal">
                                                     Delete this Category
                                                 </a>
                                             </div>
@@ -117,6 +117,7 @@
                                     <a href="#" class="btn btn-success w-100">
                                         Refresh this data
                                     </a>
+
                                 </div>
 
                             </div>
@@ -170,18 +171,13 @@
                             <!-- Card footer -->
                             <div class="card-footer">
                                 <div class="mb-2">
-                                    <a href="#" class="btn btn-success w-100">
-                                        OPEN SVG GRID
-                                    </a>
-                                </div>
-                                <div class="mb-2">
-                                    <a href="#" class="btn btn-danger w-100">
-                                        DELETE THIS SVG
-                                    </a>
-                                </div>
-                                <div class="mb-2">
                                     <a href="{{route('live.coloringbook.dashboard.vector-content-details')}}" class="btn btn-primary w-100">
-                                        EDIT THIS SVG
+                                        VIEW DETAILS
+                                    </a>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="#" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#delete-content-modal">
+                                        DELETE THIS CONTENT
                                     </a>
                                 </div>
                             </div>
@@ -229,18 +225,13 @@
                             <!-- Card footer -->
                             <div class="card-footer">
                                 <div class="mb-2">
-                                    <a href="#" class="btn btn-success w-100">
-                                        OPEN SVG GRID
-                                    </a>
-                                </div>
-                                <div class="mb-2">
-                                    <a href="#" class="btn btn-danger w-100">
-                                        DELETE SVG VECTOR
-                                    </a>
-                                </div>
-                                <div class="mb-2">
                                     <a href="{{route('live.coloringbook.dashboard.vector-content-details')}}" class="btn btn-primary w-100">
-                                        EDIT SVG VECTOR
+                                        VIEW DETAILS
+                                    </a>
+                                </div>
+                                <div class="mb-2">
+                                    <a href="#" class="btn btn-danger w-100" data-bs-toggle="modal" data-bs-target="#delete-content-modal">
+                                        DELETE THIS CONTENT
                                     </a>
                                 </div>
                             </div>
@@ -256,6 +247,13 @@
         @include('live.includes.footer')
     </div>
 </div>
+@include('live.coloringbook.modals.categories.delete-category-alert')
+@include('live.coloringbook.modals.categories.edit-category-details')
+@include('live.coloringbook.modals.content.add-content-to-category')
+@include('live.coloringbook.modals.content.sucess-alert-content')
+@include('live.coloringbook.modals.content.error-alert-content')
+@include('live.coloringbook.modals.content.delete-content-alert')
+
 <!-- Libs JS -->
 <!-- Tabler Core -->
 @include('live.includes.bottom-scripts')

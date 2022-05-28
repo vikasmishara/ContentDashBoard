@@ -11,10 +11,10 @@
         <div class="navbar-nav flex-row order-md-last">
             <div class="nav-item d-none d-md-flex me-3">
                 <div class="btn-list">
-                    <a href="https://github.com/tabler/tabler" class="btn" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/vikasmishara/" class="btn" target="_blank" rel="noreferrer">
                         Source code
                     </a>
-                    <a href="https://github.com/sponsors/codecalm" class="btn" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/vikasmishara/" class="btn" target="_blank" rel="noreferrer">
                         Sponsor
                     </a>
                 </div>
