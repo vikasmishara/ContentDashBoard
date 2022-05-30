@@ -14,8 +14,10 @@
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.main-dashboard')}}" ><span class="nav-link-title">Dashboard</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.dashboard.categories')}}" ><span class="nav-link-title">Categories</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Content Grid</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Users</span></a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Reports</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.users.synced-users')}}" ><span class="nav-link-title">Users</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Reported Content</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.users.blocked-users')}}" ><span class="nav-link-title">Blocked Users</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.users.deleted-users')}}" ><span class="nav-link-title">Deleted Users</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Feedback</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.changelog')}}" ><span class="nav-link-title">ChangeLog</span></a></li>
                 </ul>

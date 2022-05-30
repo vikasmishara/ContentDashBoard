@@ -18,11 +18,11 @@
                 <div class="row g-2 align-items-center">
                     <div class="col">
                         <h2 class="page-title">
-                            SVG Title Goes Here : SVG ID Goes Here
+                            Contents Title Goes Here : Contents ID Goes Here
                         </h2>
 
                         <div class="page-pretitle">
-                            <span class="bg-green-lt"> Details of the SVG (Ajkkdsj791289) uploaded in Daily New Categories</span>
+                            <span class="bg-green-lt"> Details of the Contents (Ajkkdsj791289) uploaded in Daily New Categories</span>
                         </div>
                     </div>
 
@@ -62,7 +62,7 @@
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
                                                 <a href="#" class="btn btn-danger w-100">
-                                                    Copy this SVG to other Categories(S)
+                                                    Copy this Content to other Categories(S)
                                                 </a>
                                             </div>
                                         </div>
@@ -70,7 +70,7 @@
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
                                                 <a href="#" class="btn btn-danger w-100">
-                                                    Move this SVG to other Category
+                                                    Move this Content to other Category
                                                 </a>
                                             </div>
                                         </div>
@@ -78,7 +78,7 @@
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
                                                 <a href="#" class="btn btn-success w-100">
-                                                    View Original SVG
+                                                    View Original Content
                                                 </a>
                                             </div>
                                         </div>
@@ -99,7 +99,7 @@
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body">
-                                <div class="card-title bg-pink-lt">SVG Details</div>
+                                <div class="card-title bg-pink-lt">Contents Details</div>
                                 <div class="mb-2">
                                     Created at: <strong> 2020-01-05 16:42:29 UTC</strong>
                                 </div>
@@ -121,7 +121,7 @@
                                 </div>
 
                                 <div class="mb-2">
-                                    Design Type: <strong>SVG Type 1</strong>
+                                    Design Type: <strong>Contents Type 1</strong>
                                 </div>
 
                                 <div class="mb-2">
@@ -129,7 +129,7 @@
                                 </div>
                                 <div class="mb-2">
                                     <a href="#" class="btn btn-success w-100">
-                                       VIEW CONTENT GRID FOR THIS SVG
+                                       VIEW CONTENT GRID
                                     </a>
                                 </div>
                             </div>

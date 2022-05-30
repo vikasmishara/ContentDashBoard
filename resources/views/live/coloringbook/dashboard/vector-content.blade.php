@@ -29,7 +29,7 @@
                         </h2>
 
                         <div class="page-pretitle">
-                            <span class="bg-green-lt"> SVGs Uploaded in Daily New Categories</span>
+                            <span class="bg-green-lt"> Contents Uploaded in Daily New Categories</span>
                         </div>
                     </div>
 
@@ -138,7 +138,7 @@
 
                             <div class="card-body">
                                 <!-- Vector title -->
-                                <div class="card-title bg-cyan-lt"> SVG Title Goes Here</div>
+                                <div class="card-title bg-cyan-lt"> Contents Title Goes Here</div>
                                 <!-- Vector Details -->
                                 <div class="mb-2">
                                     Created at: <strong> 2020-01-05 16:42:29 UTC</strong>
@@ -161,7 +161,7 @@
                                 </div>
 
                                 <div class="mb-2">
-                                    Design Type: <strong>SVG Type 1</strong>
+                                    Design Type: <strong>Contents Type 1</strong>
                                 </div>
 
                                 <div class="mb-2">
@@ -192,7 +192,7 @@
 
                             <div class="card-body">
                                 <!-- Vector title -->
-                                <div class="card-title bg-cyan-lt"> SVG Title Goes Here</div>
+                                <div class="card-title bg-cyan-lt"> Contents Title Goes Here</div>
                                 <!-- Vector Details -->
                                 <div class="mb-2">
                                     Created at: <strong> 2020-01-05 16:42:29 UTC</strong>
@@ -215,7 +215,7 @@
                                 </div>
 
                                 <div class="mb-2">
-                                    Design Type: <strong>SVG Type 1</strong>
+                                    Design Type: <strong>Contents Type 1</strong>
                                 </div>
 
                                 <div class="mb-2">

@@ -1,12 +1,4 @@
 <!doctype html>
-<!--
-* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
-* @version 1.0.0-beta10
-* @link https://tabler.io
-* Copyright 2018-2022 The Tabler Authors
-* Copyright 2018-2022 codecalm.net Paweł Kuna
-* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
--->
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -74,7 +66,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Category Daily New Maxx 32 character &nbsp;</h3>
 
-                                        <h3 class="card-subtitle"><span class="bg-green-lt">18 SVGs uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-green-lt">18 Contents uploaded</span></h3>
 
                                         <div class="card-text">
                                             <a href="{{route('live.coloringbook.dashboard.vector-content')}}"
@@ -111,7 +103,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Category People Maxx 32 character &nbsp;</h3>
 
-                                        <h3 class="card-subtitle"><span class="bg-green-lt">18 SVGs uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-green-lt">18 Contents uploaded</span></h3>
 
                                         <div class="card-text">
                                             <a href="#" class="btn btn-primary ">View Content</a>
@@ -144,7 +136,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Category Sports Maxx 32 character &nbsp;</h3>
 
-                                        <h3 class="card-subtitle"><span class="bg-green-lt">17 SVGs uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
 
                                         <div class="card-text">
                                             <a href="#" class="btn btn-primary ">View Content</a>
@@ -178,7 +170,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Category Space Maxx 32 character &nbsp;</h3>
 
-                                        <h3 class="card-subtitle"><span class="bg-green-lt">17 SVGs uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
 
                                         <div class="card-text">
                                             <a href="#" class="btn btn-primary ">View Content</a>
@@ -209,7 +201,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Category Flowers Maxx 32 character &nbsp;</h3>
 
-                                        <h3 class="card-subtitle"><span class="bg-green-lt">17 SVGs uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
 
                                         <div class="card-text">
                                             <a href="#" class="btn btn-primary ">View Content</a>
@@ -240,7 +232,7 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Category Festivals Maxx 32 character &nbsp;</h3>
 
-                                        <h3 class="card-subtitle"><span class="bg-green-lt">17 SVGs uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
 
                                         <div class="card-text">
                                             <a href="#" class="btn btn-primary ">View Content</a>

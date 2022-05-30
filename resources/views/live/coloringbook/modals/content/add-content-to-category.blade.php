@@ -17,13 +17,13 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="mb-3">
-                            <div class="form-label required">Upload Main SVG / VECTOR File <span class="badge bg-red"> Required</span></div>
+                            <div class="form-label required">Upload Main Content File <span class="badge bg-red"> Required</span></div>
                             <input type="file" class="form-control" />
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="mb-3">
-                            <div class="form-label required">Upload Thumbnail for SVG / VECTOR <span class="badge bg-red"> Required</span></div>
+                            <div class="form-label required">Upload Content Thumbnail <span class="badge bg-red"> Required</span></div>
                             <input type="file" class="form-control" />
                         </div>
                     </div>
