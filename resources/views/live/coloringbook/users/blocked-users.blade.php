@@ -86,10 +86,10 @@
                                         <td>carlson@gmail.com</td>
                                         <td><span class="badge bg-success me-1"></span> 31-05-2022 00:02AM</td>
                                         <td>
-                                            <button class="btn btn-danger">UN-BLOCK USER</button>
+                                            <button class="btn btn-danger" data-bs-target="#un-block-user-alert" data-bs-toggle="modal">UN-BLOCK USER</button>
                                         </td>
                                         <td>
-                                            <button class="btn btn-danger">DELETE USER</button>
+                                            <button class="btn btn-danger"data-bs-target="#delete-user-alert" data-bs-toggle="modal">DELETE USER</button>
                                         </td>
                                     </tr>
 
@@ -159,14 +159,8 @@
         @include('live.includes.footer')
     </div>
 </div>
-@include('live.coloringbook.modals.categories.create-new-category')
-@include('live.coloringbook.modals.categories.sucess-alert')
-@include('live.coloringbook.modals.categories.error-alert')
-@include('live.coloringbook.modals.categories.attach-to-slider-category')
-@include('live.coloringbook.modals.categories.slider-sucess-alert')
-@include('live.coloringbook.modals.categories.slider-error-alert')
-@include('live.coloringbook.modals.categories.update-remove-to-slider-category')
-@include('live.coloringbook.modals.logout-alert')
+@include('live.coloringbook.modals.users.delete-user-alert')
+@include('live.coloringbook.modals.users.un-block-user-alert')
 
         <!-- Libs JS -->
 <!-- Tabler Core -->

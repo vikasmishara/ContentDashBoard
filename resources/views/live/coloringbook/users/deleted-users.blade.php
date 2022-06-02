@@ -86,7 +86,7 @@
                                         <td>carlson@gmail.com</td>
                                         <td><span class="badge bg-success me-1"></span> 31-05-2022 00:02AM</td>
                                         <td>
-                                            <button class="btn btn-danger">PERMANENTLY DELETE</button>
+                                            <button class="btn btn-danger" data-bs-target="#permanently-delete-user-alert" data-bs-toggle="modal">PERMANENTLY DELETE</button>
                                         </td>
                                     </tr>
 
@@ -97,7 +97,7 @@
                                         <td>carlson@gmail.com</td>
                                         <td><span class="badge bg-success me-1"></span> 31-05-2022 00:02AM</td>
                                         <td>
-                                            <button class="btn btn-danger">PERMANENTLY DELETE</button>
+                                            <button class="btn btn-danger" data-bs-target="#permanently-delete-user-alert" data-bs-toggle="modal" >PERMANENTLY DELETE</button>
                                         </td>
                                     </tr>
 
@@ -152,14 +152,7 @@
         @include('live.includes.footer')
     </div>
 </div>
-@include('live.coloringbook.modals.categories.create-new-category')
-@include('live.coloringbook.modals.categories.sucess-alert')
-@include('live.coloringbook.modals.categories.error-alert')
-@include('live.coloringbook.modals.categories.attach-to-slider-category')
-@include('live.coloringbook.modals.categories.slider-sucess-alert')
-@include('live.coloringbook.modals.categories.slider-error-alert')
-@include('live.coloringbook.modals.categories.update-remove-to-slider-category')
-@include('live.coloringbook.modals.logout-alert')
+@include('live.coloringbook.modals.users.permanently-delete-user-alert')
 
         <!-- Libs JS -->
 <!-- Tabler Core -->

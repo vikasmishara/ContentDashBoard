@@ -53,7 +53,7 @@
                                     <div class="col">
                                         <div class="row g-2 align-items-center mt-1">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-primary w-100" data-bs-target="#edit-update-content-details" data-bs-toggle="modal">
+                                                <a href="#" class="btn btn-primary" data-bs-target="#edit-update-content-details" data-bs-toggle="modal">
                                                     Edit this Content
                                                 </a>
                                             </div>
@@ -61,7 +61,7 @@
 
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-danger w-100">
+                                                <a href="#" class="btn btn-danger ">
                                                     Copy this Content to other Categories(S)
                                                 </a>
                                             </div>
@@ -69,7 +69,7 @@
 
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-danger w-100">
+                                                <a href="#" class="btn btn-danger">
                                                     Move this Content to other Category
                                                 </a>
                                             </div>
@@ -77,7 +77,7 @@
 
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-success w-100">
+                                                <a href="#" class="btn btn-success">
                                                     View Original Content
                                                 </a>
                                             </div>
@@ -128,7 +128,7 @@
                                     Download: <strong>856</strong>
                                 </div>
                                 <div class="mb-2">
-                                    <a href="#" class="btn btn-success w-100">
+                                    <a href="#" class="btn btn-success">
                                        VIEW CONTENT GRID
                                     </a>
                                 </div>

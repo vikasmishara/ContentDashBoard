@@ -27,5 +27,7 @@ class DashboardController extends Controller
     public function coloring_book_synced_users(){return view('live.coloringbook.users.synced-users');}
     public function coloring_book_blocked_users(){return view('live.coloringbook.users.blocked-users');}
     public function coloring_book_deleted_users(){return view('live.coloringbook.users.deleted-users');}
+    public function coloring_book_reported_content(){return view('live.coloringbook.users.reported-content');}
+    public function coloring_book_premium_categories(){return view('live.coloringbook.dashboard.premium.categories');}
     public function changelog(){return view('live.changelog');}
 }

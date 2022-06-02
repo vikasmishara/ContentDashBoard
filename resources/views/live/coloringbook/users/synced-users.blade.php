@@ -106,10 +106,10 @@
                                                         data-bs-toggle="dropdown">Actions
                                                 </button>
                               <div class="dropdown-menu dropdown-menu-end">
-                                  <a class="dropdown-item" href="#">
+                                  <a class="dropdown-item" href="#" data-bs-target="#delete-user-alert" data-bs-toggle="modal">
                                       Delete User
                                   </a>
-                                  <a class="dropdown-item" href="#">
+                                  <a class="dropdown-item" href="#" data-bs-target="#block-user-alert" data-bs-toggle="modal">
                                       Block User
                                   </a>
                               </div>
@@ -137,10 +137,10 @@
                                                         data-bs-toggle="dropdown">Actions
                                                 </button>
                               <div class="dropdown-menu dropdown-menu-end">
-                                  <a class="dropdown-item" href="#">
+                                  <a class="dropdown-item" href="#" data-bs-target="#delete-user-alert" data-bs-toggle="modal">
                                       Delete User
                                   </a>
-                                  <a class="dropdown-item" href="#">
+                                  <a class="dropdown-item" href="#" data-bs-target="#block-user-alert" data-bs-toggle="modal">
                                       Block User
                                   </a>
                               </div>
@@ -202,14 +202,8 @@
         @include('live.includes.footer')
     </div>
 </div>
-@include('live.coloringbook.modals.categories.create-new-category')
-@include('live.coloringbook.modals.categories.sucess-alert')
-@include('live.coloringbook.modals.categories.error-alert')
-@include('live.coloringbook.modals.categories.attach-to-slider-category')
-@include('live.coloringbook.modals.categories.slider-sucess-alert')
-@include('live.coloringbook.modals.categories.slider-error-alert')
-@include('live.coloringbook.modals.categories.update-remove-to-slider-category')
-@include('live.coloringbook.modals.logout-alert')
+@include('live.coloringbook.modals.users.delete-user-alert')
+@include('live.coloringbook.modals.users.block-user-alert')
 
         <!-- Libs JS -->
 <!-- Tabler Core -->
