@@ -1,12 +1,4 @@
 <!doctype html>
-<!--
-* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
-* @version 1.0.0-beta10
-* @link https://tabler.io
-* Copyright 2018-2022 The Tabler Authors
-* Copyright 2018-2022 codecalm.net Paweł Kuna
-* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
--->
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -31,7 +23,6 @@
                 </div>
                 <div class="form-footer">
                     <a href="#" class="btn btn-primary w-100">
-                        <!-- Download SVG icon from http://tabler-icons.io/i/mail -->
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><rect x="3" y="5" width="18" height="14" rx="2" /><polyline points="3 7 12 13 21 7" /></svg>
                         Send me new password
                     </a>
@@ -43,8 +34,6 @@
         </div>
     </div>
 </div>
-<!-- Libs JS -->
-<!-- Tabler Core -->
 @include('live.includes.bottom-scripts')
 </body>
 </html>

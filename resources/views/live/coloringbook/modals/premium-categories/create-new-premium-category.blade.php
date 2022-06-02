@@ -19,15 +19,9 @@
             </div>
             <div class="modal-body">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-12">
                         <div class="mb-3">
                             <div class="form-label required">Upload Main Thumbnail <span class="badge bg-red"> Required</span></div>
-                            <input type="file" class="form-control" />
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="mb-3">
-                            <div class="form-label required">Upload Circular Thumbnail <span class="badge bg-red"> Required</span></div>
                             <input type="file" class="form-control" />
                         </div>
                     </div>
@@ -39,7 +33,7 @@
                         <div class="mb-3">
                             <div>
                                 <label class="row">
-                                    <span class="col bg-pink-lt">Attach this category to home slider</span>
+                                    <span class="col bg-pink-lt">Attach this premium category to home slider</span>
                                   <span class="col-auto">
                                     <label class="form-check form-check-single form-switch">
                                         <input class="form-check-input" type="checkbox" checked>
@@ -60,7 +54,6 @@
                     Cancel
                 </a>
                 <a href="#" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#success-alert">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
                     Create Premium Category
                 </a>
             </div>

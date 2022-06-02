@@ -32,7 +32,10 @@ Route::get('/coloring-book-synced-users',[DashboardController::class, 'coloring_
 Route::get('/coloring-book-blocked-users',[DashboardController::class, 'coloring_book_blocked_users'])->name('live.coloringbook.users.blocked-users');
 Route::get('/coloring-book-deleted-users',[DashboardController::class, 'coloring_book_deleted_users'])->name('live.coloringbook.users.deleted-users');
 Route::get('/coloring-book-reported-content',[DashboardController::class, 'coloring_book_reported_content'])->name('live.coloringbook.users.reported-content');
+
 Route::get('/coloring-book-premium-categories',[DashboardController::class, 'coloring_book_premium_categories'])->name('live.coloringbook.dashboard.premium.categories');
+Route::get('/coloring-book-premium-categories-content',[DashboardController::class, 'coloring_book_premium_categories_content'])->name('live.coloringbook.dashboard.premium.premium-vector-content');
+Route::get('/coloring-book-premium-categories-content-details',[DashboardController::class, 'coloring_book_premium_categories_content_details'])->name('live.coloringbook.dashboard.premium.premium-vector-content-details');
 
 
 Route::get('/changelog',[DashboardController::class, 'changelog'])->name('live.changelog');

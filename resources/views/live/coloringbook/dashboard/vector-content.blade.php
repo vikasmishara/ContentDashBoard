@@ -1,12 +1,5 @@
 <!doctype html>
-<!--
-* Tabler - Premium and Open Source dashboard template with responsive and high quality UI.
-* @version 1.0.0-beta10
-* @link https://tabler.io
-* Copyright 2018-2022 The Tabler Authors
-* Copyright 2018-2022 codecalm.net Paweł Kuna
-* Licensed under MIT (https://github.com/tabler/tabler/blob/master/LICENSE)
--->
+
 <html lang="en">
 <head>
     <meta charset="utf-8"/>
@@ -254,8 +247,7 @@
 @include('live.coloringbook.modals.content.error-alert-content')
 @include('live.coloringbook.modals.content.delete-content-alert')
 
-<!-- Libs JS -->
-<!-- Tabler Core -->
+
 @include('live.includes.bottom-scripts')
 </body>
 </html>

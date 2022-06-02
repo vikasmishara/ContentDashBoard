@@ -172,7 +172,6 @@
                                     <ul class="pagination m-0 ms-auto">
                                         <li class="page-item disabled">
                                             <a class="page-link" href="#" tabindex="-1" aria-disabled="true">
-                                                <!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
                                                      height="24" viewBox="0 0 24 24" stroke-width="2"
                                                      stroke="currentColor" fill="none" stroke-linecap="round"
@@ -191,7 +190,6 @@
                                         <li class="page-item">
                                             <a class="page-link" href="#">
                                                 next
-                                                <!-- Download SVG icon from http://tabler-icons.io/i/chevron-right -->
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24"
                                                      height="24" viewBox="0 0 24 24" stroke-width="2"
                                                      stroke="currentColor" fill="none" stroke-linecap="round"
@@ -217,8 +215,6 @@
 @include('live.coloringbook.modals.users.delete-user-alert')
 @include('live.coloringbook.modals.users.block-user-alert')
 
-        <!-- Libs JS -->
-<!-- Tabler Core -->
 @include('live.includes.bottom-scripts')
 </body>
 </html>

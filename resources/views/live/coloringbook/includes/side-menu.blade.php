@@ -6,7 +6,7 @@
             </button>
             <h1 class="navbar-brand navbar-brand-autodark">
                 <a href="{{route('live.coloringbook.main-dashboard')}}">
-                    <img src="{{asset('dist/static/logo-white.svg')}}" width="110" height="32" alt="Tabler" class="navbar-brand-image">
+                    <img src="{{asset('dist/static/logo-white.svg')}}" width="110" height="32" alt="side-menu" class="navbar-brand-image">
                 </a>
             </h1>
             <div class="collapse navbar-collapse" id="navbar-menu">

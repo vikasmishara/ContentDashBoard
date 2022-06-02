@@ -269,8 +269,6 @@
 @include('live.coloringbook.modals.categories.update-remove-to-slider-category')
 @include('live.coloringbook.modals.logout-alert')
 
-        <!-- Libs JS -->
-<!-- Tabler Core -->
 @include('live.includes.bottom-scripts')
 </body>
 </html>

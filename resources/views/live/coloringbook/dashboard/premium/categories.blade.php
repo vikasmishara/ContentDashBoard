@@ -48,25 +48,6 @@
                                     <line x1="5" y1="12" x2="19" y2="12"/>
                                 </svg>
                             </a>
-
-                            <!-- Create premium categories with packs actions -->
-                            <a href="#" class="btn btn-primary d-none d-sm-inline-block" data-bs-toggle="modal"
-                               data-bs-target="#create-new-premium-category-with-packs">
-                                Create new Premium Category with Packs
-                            </a>
-                            <!-- Create premium categories with packs mobile -->
-                            <a href="#" class="btn btn-primary d-sm-none btn-icon" data-bs-toggle="modal"
-                               data-bs-target="#create-new-premium-category-with-packs" aria-label="Create new PremiumCategory">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
-                                     viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                                     stroke-linecap="round" stroke-linejoin="round">
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                    <line x1="12" y1="5" x2="12" y2="19"/>
-                                    <line x1="5" y1="12" x2="19" y2="12"/>
-                                </svg>
-                            </a>
-
-
                         </div>
                     </div>
 
@@ -89,10 +70,11 @@
                                         <h3 class="card-title">Category Daily New Maxx 32 character &nbsp;</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">18 Contents uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
 
                                         <div class="card-text">
-                                            <a href="{{route('live.coloringbook.dashboard.vector-content')}}"
-                                               class="btn btn-primary ">View Content</a>
+                                            <a href="{{route('live.coloringbook.dashboard.premium.premium-vector-content')}}"
+                                               class="btn btn-primary ">View Premium Content</a>
                                         </div>
                                     </div>
                                     <!-- Card footer -->
@@ -102,7 +84,7 @@
                                             <div class="col-auto">
 
                                                 <a href="#" data-bs-toggle="modal"
-                                                   data-bs-target="#attach-to-slider-modal">Attach this category to home
+                                                   data-bs-target="#attach-premium-to-slider-modal">Attach this premium category to home
                                                     slider</a>
                                             </div>
 
@@ -126,9 +108,11 @@
                                         <h3 class="card-title">Category People Maxx 32 character &nbsp;</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">18 Contents uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
 
                                         <div class="card-text">
-                                            <a href="#" class="btn btn-primary ">View Content</a>
+                                            <a href="{{route('live.coloringbook.dashboard.premium.premium-vector-content')}}"
+                                               class="btn btn-primary ">View Premium Content</a>
                                         </div>
                                     </div>
                                     <!-- Card footer -->
@@ -137,7 +121,7 @@
                                         <div class="row align-items-center">
                                             <div class="col-auto">
                                                 <a href="#" data-bs-toggle="modal"
-                                                   data-bs-target="#attach-to-slider-modal">Attach this category to home
+                                                   data-bs-target="#attach-premium-to-slider-modal">Attach this premium category to home
                                                     slider</a>
                                             </div>
                                         </div>
@@ -158,10 +142,13 @@
                                     <div class="card-body">
                                         <h3 class="card-title">Category Sports Maxx 32 character &nbsp;</h3>
 
+
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
 
                                         <div class="card-text">
-                                            <a href="#" class="btn btn-primary ">View Content</a>
+                                            <a href="{{route('live.coloringbook.dashboard.premium.premium-vector-content')}}"
+                                               class="btn btn-primary ">View Premium Content</a>
                                         </div>
                                     </div>
                                     <!-- Card footer -->
@@ -170,7 +157,7 @@
                                         <div class="row align-items-center">
                                             <div class="col-auto">
                                                 <a href="#" data-bs-toggle="modal"
-                                                   data-bs-target="#update-remove-to-slider-modal">This category is
+                                                   data-bs-target="#update-remove-to-slider-modal">Premium category is
                                                     attached to home slider</a>
                                             </div>
 
@@ -193,9 +180,11 @@
                                         <h3 class="card-title">Category Space Maxx 32 character &nbsp;</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
 
                                         <div class="card-text">
-                                            <a href="#" class="btn btn-primary ">View Content</a>
+                                            <a href="{{route('live.coloringbook.dashboard.premium.premium-vector-content')}}"
+                                               class="btn btn-primary ">View Premium Content</a>
                                         </div>
                                     </div>
                                     <!-- Card footer -->
@@ -224,9 +213,11 @@
                                         <h3 class="card-title">Category Flowers Maxx 32 character &nbsp;</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
 
                                         <div class="card-text">
-                                            <a href="#" class="btn btn-primary ">View Content</a>
+                                            <a href="{{route('live.coloringbook.dashboard.premium.premium-vector-content')}}"
+                                               class="btn btn-primary ">View Premium Content</a>
                                         </div>
                                     </div>
                                     <!-- Card footer -->
@@ -255,9 +246,11 @@
                                         <h3 class="card-title">Category Festivals Maxx 32 character &nbsp;</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
 
                                         <div class="card-text">
-                                            <a href="#" class="btn btn-primary ">View Content</a>
+                                            <a href="{{route('live.coloringbook.dashboard.premium.premium-vector-content')}}"
+                                               class="btn btn-primary ">View Premium Content</a>
                                         </div>
                                     </div>
                                     <!-- Card footer -->
@@ -265,7 +258,7 @@
                                         <!-- Mark Category as slider -->
                                         <div class="row align-items-center">
                                             <div class="col-auto">
-                                                <a href="#">Attach this category to home slider</a>
+                                                <a href="#">Attach this premium category to home slider</a>
                                             </div>
                                         </div>
                                     </div>
@@ -284,9 +277,9 @@
 </div>
 @include('live.coloringbook.modals.premium-categories.create-new-premium-category')
 @include('live.coloringbook.modals.premium-categories.create-new-premium-category-with-packs')
+@include('live.coloringbook.modals.premium-categories.attach-premium-to-slider-category')
+@include('live.coloringbook.modals.categories.update-remove-to-slider-category')
 
-        <!-- Libs JS -->
-<!-- Tabler Core -->
 @include('live.includes.bottom-scripts')
 </body>
 </html>

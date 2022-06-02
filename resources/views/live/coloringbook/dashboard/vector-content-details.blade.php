@@ -61,7 +61,7 @@
 
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-danger ">
+                                                <a href="#" class="btn btn-danger" data-bs-target="#copy-content-modal" data-bs-toggle="modal">
                                                     Copy this Content to other Categories(S)
                                                 </a>
                                             </div>
@@ -136,16 +136,9 @@
 
                         </div>
                     </div>
-
                 </div>
 
-
-
-
                 <div class="row row-cards mb-2">
-
-
-
 
                 </div>
             </div>
@@ -159,8 +152,7 @@
 @include('live.coloringbook.modals.content.error-alert-content')
 @include('live.coloringbook.modals.content.delete-content-alert')
 @include('live.coloringbook.modals.content.edit-update-content-details')
-<!-- Libs JS -->
-<!-- Tabler Core -->
 @include('live.includes.bottom-scripts')
+@include('live.coloringbook.modals.content.copy-content-modal')
 </body>
 </html>

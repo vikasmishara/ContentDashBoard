@@ -74,7 +74,6 @@
                     Cancel this update
                 </a>
                 <a href="#" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#success-alert-content">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
                     Update Content Details
                 </a>
             </div>

@@ -25,7 +25,6 @@
                     Cancel
                 </a>
                 <a href="#" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#slider-success-alert">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
                     Add to Slider
                 </a>
             </div>

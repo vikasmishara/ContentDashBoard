@@ -61,7 +61,6 @@
                     Cancel this Update
                 </a>
                 <a href="#" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#success-alert">
-                    <!-- Download SVG icon from http://tabler-icons.io/i/plus -->
                     Update Category
                 </a>
             </div>
