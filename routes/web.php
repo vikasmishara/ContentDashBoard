@@ -13,6 +13,7 @@ use App\Http\Controllers\DashboardController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('test',[DashboardController::class, 'test'])->name('live.test');
 
 Route::get('index',[DashboardController::class, 'index'])->name('live.index');
 Route::get('/',[DashboardController::class, 'main_sign_in'])->name('live.authentication.sign-in');
@@ -36,6 +37,8 @@ Route::get('/coloring-book-reported-content',[DashboardController::class, 'color
 Route::get('/coloring-book-premium-categories',[DashboardController::class, 'coloring_book_premium_categories'])->name('live.coloringbook.dashboard.premium.categories');
 Route::get('/coloring-book-premium-categories-content',[DashboardController::class, 'coloring_book_premium_categories_content'])->name('live.coloringbook.dashboard.premium.premium-vector-content');
 Route::get('/coloring-book-premium-categories-content-details',[DashboardController::class, 'coloring_book_premium_categories_content_details'])->name('live.coloringbook.dashboard.premium.premium-vector-content-details');
+
+Route::get('/coloring-book-explore-categories',[DashboardController::class, 'coloring_book_explore_categories'])->name('live.coloringbook.dashboard.explore.explore-categories');
 
 
 Route::get('/changelog',[DashboardController::class, 'changelog'])->name('live.changelog');

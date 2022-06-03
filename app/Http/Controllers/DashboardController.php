@@ -10,6 +10,7 @@ use Illuminate\Http\Request;
 
 class DashboardController extends Controller
 {
+    public function test(){return view('live.test');}
     public function index(){return view('live.index');}
     public function main_sign_in(){return view('live.authentication.sign-in');}
     public function main_sign_up(){return view('live.authentication.sign-up');}
@@ -32,5 +33,7 @@ class DashboardController extends Controller
     public function coloring_book_premium_categories(){return view('live.coloringbook.dashboard.premium.categories');}
     public function coloring_book_premium_categories_content(){return view('live.coloringbook.dashboard.premium.premium-vector-content');}
     public function coloring_book_premium_categories_content_details(){return view('live.coloringbook.dashboard.premium.premium-vector-content-details');}
+
+    public function coloring_book_explore_categories(){return view('live.coloringbook.dashboard.explore.explore-categories');}
     public function changelog(){return view('live.changelog');}
 }

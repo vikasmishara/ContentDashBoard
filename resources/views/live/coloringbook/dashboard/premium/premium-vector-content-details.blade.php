@@ -61,7 +61,7 @@
 
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-danger ">
+                                                <a href="#" class="btn btn-danger" data-bs-target="#copy-premium-content-modal" data-bs-toggle="modal">
                                                     Copy this Content to other Premium Categories(S)
                                                 </a>
                                             </div>
@@ -69,7 +69,7 @@
 
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-danger">
+                                                <a href="#" class="btn btn-danger" data-bs-target="#move-premium-content-modal" data-bs-toggle="modal">
                                                     Move this Content to other Premium Category
                                                 </a>
                                             </div>
@@ -113,7 +113,7 @@
                                 </div>
 
                                 <div class="mb-2">
-                                    Trade Type: <strong>NONE / ADS / COIN BASED</strong>
+                                    Price: <strong>INR 10</strong>
                                 </div>
 
                                 <div class="mb-2">
@@ -159,6 +159,8 @@
 @include('live.coloringbook.modals.content.error-alert-content')
 @include('live.coloringbook.modals.content.delete-content-alert')
 @include('live.coloringbook.modals.premium-content.edit-update-premium-content-details')
+@include('live.coloringbook.modals.premium-content.copy-premium-content-modal')
+@include('live.coloringbook.modals.premium-content.move-premium-content-modal')
 
 @include('live.includes.bottom-scripts')
 </body>

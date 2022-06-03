@@ -109,7 +109,7 @@
                     Cancel
                 </a>
                 <a href="#" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#success-alert-content">
-                   Move Content
+                   Copy Content
                 </a>
 
 

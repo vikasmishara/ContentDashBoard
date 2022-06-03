@@ -69,7 +69,7 @@
 
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-danger">
+                                                <a href="#" class="btn btn-danger" data-bs-target="#move-content-modal" data-bs-toggle="modal">
                                                     Move this Content to other Category
                                                 </a>
                                             </div>
@@ -154,5 +154,6 @@
 @include('live.coloringbook.modals.content.edit-update-content-details')
 @include('live.includes.bottom-scripts')
 @include('live.coloringbook.modals.content.copy-content-modal')
+@include('live.coloringbook.modals.content.move-content-modal')
 </body>
 </html>
