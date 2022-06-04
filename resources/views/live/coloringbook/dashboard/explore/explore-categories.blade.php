@@ -32,11 +32,11 @@
                                         class="btn btn-white" data-bs-toggle="modal"
                                         data-bs-target="#logout-modal">Logout</a></span>
                             <a href="#" class="btn btn-primary d-none d-sm-inline-block" data-bs-toggle="modal"
-                               data-bs-target="#create-new-category-modal">
+                               data-bs-target="#create-new-explore-category-modal">
                                 Create New Explore Category with Packs
                             </a>
                             <a href="#" class="btn btn-success d-sm-none btn-icon" data-bs-toggle="modal"
-                               data-bs-target="#create-new-category-modal" aria-label="Create New Explore Category with Packs">
+                               data-bs-target="#create-new-explore-category-modal" aria-label="Create New Explore Category">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24"
                                      viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                                      stroke-linecap="round" stroke-linejoin="round">
@@ -69,7 +69,7 @@
                                         <h3 class="card-subtitle"><span class="bg-green-lt">10 Packs uploaded</span></h3>
 
                                         <div class="card-text">
-                                            <a href="{{route('live.coloringbook.dashboard.vector-content')}}"
+                                            <a href="{{route('live.coloringbook.dashboard.explore.explore-categories-content-packs')}}"
                                                class="btn btn-primary ">View Packs</a>
                                         </div>
                                     </div>
@@ -78,7 +78,6 @@
                                         <!-- Mark Category as slider -->
                                         <div class="row align-items-center">
                                             <div class="col-auto">
-
                                                 <a href="#" data-bs-toggle="modal"
                                                    data-bs-target="#attach-to-slider-modal">Attach this category to home
                                                     slider</a>
@@ -101,12 +100,12 @@
                                     <div class="card-img-top img-responsive img-responsive-16by9"
                                          style="background-image: url('{{asset('dist/static/coloring-book/categories/people_bg.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category People Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">This is a demo for the character &nbsp;</h3>
 
-                                        <h3 class="card-subtitle"><span class="bg-green-lt">18 Contents uploaded</span></h3>
+                                        <h3 class="card-subtitle"><span class="bg-green-lt">1 Packs Added</span></h3>
 
                                         <div class="card-text">
-                                            <a href="#" class="btn btn-primary ">View Content</a>
+                                            <a href="#" class="btn btn-primary ">View Packs</a>
                                         </div>
                                     </div>
                                     <!-- Card footer -->
@@ -260,7 +259,7 @@
         @include('live.includes.footer')
     </div>
 </div>
-@include('live.coloringbook.modals.categories.create-new-category')
+@include('live.coloringbook.modals.explore-categories.create-new-explore-category')
 @include('live.coloringbook.modals.categories.sucess-alert')
 @include('live.coloringbook.modals.categories.error-alert')
 @include('live.coloringbook.modals.categories.attach-to-slider-category')

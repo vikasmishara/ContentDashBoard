@@ -39,6 +39,12 @@ Route::get('/coloring-book-premium-categories-content',[DashboardController::cla
 Route::get('/coloring-book-premium-categories-content-details',[DashboardController::class, 'coloring_book_premium_categories_content_details'])->name('live.coloringbook.dashboard.premium.premium-vector-content-details');
 
 Route::get('/coloring-book-explore-categories',[DashboardController::class, 'coloring_book_explore_categories'])->name('live.coloringbook.dashboard.explore.explore-categories');
+Route::get('/coloring-book-explore-categories-content-packs',[DashboardController::class, 'coloring_book_explore_categories_content_packs'])->name('live.coloringbook.dashboard.explore.explore-categories-content-packs');
+Route::get('/coloring-book-explore-categories-content-pack-details',[DashboardController::class, 'coloring_book_explore_categories_content_pack_details'])->name('live.coloringbook.dashboard.explore.explore-categories-content-pack-details');
+Route::get('/coloring-book-explore-categories-content-details',[DashboardController::class, 'coloring_book_explore_categories_content_details'])->name('live.coloringbook.dashboard.explore.explore-categories-content-details');
 
 
-Route::get('/changelog',[DashboardController::class, 'changelog'])->name('live.changelog');
+Route::get('/changelog',[DashboardController::class, 'changelog'])->name('live.pages.changelog');
+Route::get('/changelog_app',[DashboardController::class, 'changelog_app'])->name('live.pages.changelog_app');
+Route::get('/privacy_policy',[DashboardController::class, 'privacy_policy'])->name('live.pages.privacy_policy');
+Route::get('/terms_conditions',[DashboardController::class, 'terms_conditions'])->name('live.pages.terms_conditions');

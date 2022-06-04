@@ -35,5 +35,12 @@ class DashboardController extends Controller
     public function coloring_book_premium_categories_content_details(){return view('live.coloringbook.dashboard.premium.premium-vector-content-details');}
 
     public function coloring_book_explore_categories(){return view('live.coloringbook.dashboard.explore.explore-categories');}
-    public function changelog(){return view('live.changelog');}
+    public function coloring_book_explore_categories_content_packs(){return view('live.coloringbook.dashboard.explore.explore-categories-content-packs');}
+    public function coloring_book_explore_categories_content_pack_details(){return view('live.coloringbook.dashboard.explore.explore-categories-content-pack-details');}
+    public function coloring_book_explore_categories_content_details(){return view('live.coloringbook.dashboard.explore.explore-categories-content-details');}
+
+    public function changelog(){return view('live.pages.changelog');}
+    public function changelog_app(){return view('live.pages.changelog_app');}
+    public function privacy_policy(){return view('live.pages.privacy_policy');}
+    public function terms_conditions(){return view('live.pages.terms_conditions');}
 }
