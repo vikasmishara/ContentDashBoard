@@ -46,7 +46,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-6">
-                                        <img src="{{asset('dist/static/coloring-book/categories/new.png')}}"
+                                        <img src="{{asset('dist/static/coloring-book/explore-categories/thumb-pack-header/explore-pack-thumb_1.png')}}"
                                              alt="" class="rounded">
                                     </div>
                                     <div class="col">
@@ -122,7 +122,7 @@
                     <!-- Vector-1 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                            <img src="{{asset('dist/static/coloring-book/explore-categories/thumb-content/explore-pack-content-thumb_1.png')}}"
                                  class="card-img-top d-block">
 
                             <div class="card-body">
@@ -175,7 +175,7 @@
                     <!-- Vector-2 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                            <img src="{{asset('dist/static/coloring-book/explore-categories/thumb-content/explore-pack-content-thumb_1.png')}}"
                                  class="card-img-top d-block">
 
                             <div class="card-body">

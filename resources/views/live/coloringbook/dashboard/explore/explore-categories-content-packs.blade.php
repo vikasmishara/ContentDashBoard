@@ -46,7 +46,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-6">
-                                        <img src="{{asset('dist/static/coloring-book/categories/new.png')}}"
+                                        <img src="{{asset('dist/static/coloring-book/explore-categories/thumb-categories-header/explore-category-thumb_1.png')}}"
                                              alt="" class="rounded">
                                     </div>
                                     <div class="col">
@@ -127,12 +127,12 @@
                     <!-- Vector-1 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                            <img src="{{asset('dist/static/coloring-book/explore-categories/thumb-pack-header/explore-pack-thumb_1.png')}}"
                                  class="card-img-top d-block">
 
                             <div class="card-body">
                                 <!-- Vector title -->
-                                <div class="card-title bg-cyan-lt"> Pack Title Goes Here</div>
+                                <div class="card-title bg-cyan-lt">Pack Title Goes Here</div>
                                 <!-- Vector Details -->
                                 <div class="mb-2">
                                     Created at: <strong> 2020-01-05 16:42:29 UTC</strong>
@@ -178,7 +178,7 @@
                     <!-- Vector-2 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                            <img src="{{asset('dist/static/coloring-book/explore-categories/thumb-pack-header/explore-pack-thumb_2.png')}}"
                                  class="card-img-top d-block">
 
                             <div class="card-body">
@@ -209,7 +209,7 @@
 
                             <div class="card-footer">
                                 <div class="mb-2">
-                                    <a href="{{route('live.coloringbook.dashboard.premium.premium-vector-content-details')}}" class="btn btn-primary w-100">
+                                    <a href="#" class="btn btn-primary w-100" data-bs-target="#add-content-to-pack-modal" data-bs-toggle="modal">
                                         ADD CONTENT TO THIS PACK
                                     </a>
                                 </div>

@@ -47,7 +47,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-6">
-                                        <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                                        <img src="{{asset('dist/static/coloring-book/explore-categories/thumb-content/explore-pack-content-thumb_1.png')}}"
                                              alt="" class="rounded">
                                     </div>
                                     <div class="col">

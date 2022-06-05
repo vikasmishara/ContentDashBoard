@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Coloring Book -Explore Categories and Data </title>
+    <title>Coloring Book -Explore Categories and Packs Creation </title>
     @include('live.includes.top-scripts')
 </head>
 <body>
@@ -17,11 +17,11 @@
                 <div class="row align-items-center">
                     <div class="col">
                         <h2 class="page-title">
-                            Coloring Book Explore  Categories
+                            Coloring Book Explore Categories and Packs
                         </h2>
 
                         <div class="page-pretitle">
-                            All Categories currently available in coloring book's &nbsp;<span class="bg-green-lt">Android /&nbsp;iOS App EXPLORE FRAGMENT</span>
+                            All Explore Categories &amp; Packs currently available in coloring book's &nbsp;<span class="bg-green-lt">Android /&nbsp;iOS App EXPLORE FRAGMENT</span>
                         </div>
                     </div>
                     <!-- Page title actions -->
@@ -62,9 +62,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/categories/new.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/explore-categories/thumb-categories-header/explore-category-thumb_1.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Explore Main Category Name &nbsp;</h3>
+                                        <h3 class="card-title">Explore Main Category Title &nbsp;</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">10 Packs uploaded</span></h3>
 
@@ -98,9 +98,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/categories/people_bg.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/explore-categories/thumb-categories-header/explore-category-thumb_2.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">This is a demo for the character &nbsp;</h3>
+                                        <h3 class="card-title">Explore Category Main Title</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">1 Packs Added</span></h3>
 
@@ -131,9 +131,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/categories/sports.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/explore-categories/thumb-categories-header/explore-category-thumb_3.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Sports Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">Explore Category Main Title</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
 
@@ -165,9 +165,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/categories/space.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/explore-categories/thumb-categories-header/explore-category-thumb_4.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Space Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">Explore Category Main Title</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
 
@@ -196,9 +196,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/categories/flowers.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/explore-categories/thumb-categories-header/explore-category-thumb_5.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Flowers Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">Explore Category Main Title</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
 
@@ -227,9 +227,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/categories/festival_new.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/explore-categories/thumb-categories-header/explore-category-thumb_6.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Festivals Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">Explore Category Main Title</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
 

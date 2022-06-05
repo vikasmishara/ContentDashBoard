@@ -47,7 +47,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-6">
-                                        <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                                        <img src="{{asset('dist/static/coloring-book/premium-categories/thumb-content/premium-content-thumb_1.png')}}"
                                              alt="" class="rounded">
                                     </div>
                                     <div class="col">
@@ -99,7 +99,7 @@
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body">
-                                <div class="card-title bg-pink-lt">Contents Details</div>
+                                <div class="card-title bg-pink-lt">'Premium Content' : Details</div>
                                 <div class="mb-2">
                                     Created at: <strong> 2020-01-05 16:42:29 UTC</strong>
                                 </div>

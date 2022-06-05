@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Category : Daily New Vectors</title>
+    <title>Upload Content to Category : 'Category Name'</title>
     @include('live.includes.top-scripts')
 </head>
 <body>
@@ -18,14 +18,14 @@
                 <div class="row g-2 align-items-center">
                     <div class="col">
                         <h2 class="page-title">
-                            Daily New Category
+                            'Category Name Goes Here'
                         </h2>
 
                         <div class="page-pretitle">
-                            <span class="bg-green-lt"> Contents Uploaded in Daily New Categories</span>
+                            <span class="bg-green-lt"> Contents Uploaded in 'Category Name Goes Here'</span>
                         </div>
                     </div>
-
+                    <!-- Go back to all category list -->
                     <div class="col-12 col-md-auto ms-auto d-print-none">
                         <div class="btn-list">
                             <span class="d-none d-sm-inline"><a
@@ -51,11 +51,11 @@
                                              alt="" class="rounded">
                                     </div>
                                     <div class="col">
-                                        <h3 class="card-title mb-1">Category name maxx allowed character are 32
+                                        <h3 class="card-title mb-1">Category name goes here maxx 32 char
                                         </h3>
 
                                         <div class="text-muted">
-                                            Category Description Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            Category Description  goes here Lorem ipsum dolor sit amet, consectetur adipisicing
                                             elit. Aperiam deleniti
                                             fugit incidunt, iste, itaque minima neque pariatur perferendis sed suscipit
                                             velit vitae voluptatem.
@@ -87,7 +87,7 @@
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body">
-                                <div class="card-title bg-pink-lt">Category Details</div>
+                                <div class="card-title bg-pink-lt">'Category Name' Details</div>
                                 <div class="mb-2">
                                     Created at: <strong class="bg-green-lt">2020-01-05 16:42:29 UTC</strong>
                                 </div>
@@ -119,14 +119,14 @@
                 </div>
                 <!-- Category Detail Card Ends -->
 
-                <!-- Content Card Start Here -->
 
 
+                <!-- All Uploaded content UI -->
                 <div class="row row-cards">
                     <!-- Vector-1 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/sample_svg_1.png')}}"
                                  class="card-img-top d-block">
 
                             <div class="card-body">
@@ -180,7 +180,7 @@
                     <!-- Vector-2 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/3d2998219313cd37.jpg')}}"
+                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/sample_svg_2.png')}}"
                                  class="card-img-top d-block">
 
                             <div class="card-body">

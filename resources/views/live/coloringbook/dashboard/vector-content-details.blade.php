@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>Content Details : Daily New Vectors</title>
+    <title>Content Details : 'Category Name'</title>
     @include('live.includes.top-scripts')
 </head>
 <body>
@@ -22,7 +22,7 @@
                         </h2>
 
                         <div class="page-pretitle">
-                            <span class="bg-green-lt"> Details of the Contents (Ajkkdsj791289) uploaded in Daily New Categories</span>
+                            <span class="bg-green-lt"> Details of the Contents (Ajkkdsj791289) uploaded in 'Category Name' Categories</span>
                         </div>
                     </div>
 
@@ -47,7 +47,7 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-6">
-                                        <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                                        <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/sample_svg_1.png')}}"
                                              alt="" class="rounded">
                                     </div>
                                     <div class="col">
@@ -77,7 +77,7 @@
 
                                         <div class="row g-2 align-items-center">
                                             <div class="col-6 col-sm-4 col-md-2 col-xl mb-3">
-                                                <a href="#" class="btn btn-success">
+                                                <a href="{{asset('dist/static/coloring-book/vector-contents/thumbs/sample_svg_1.png')}}" target="_blank" class="btn btn-success">
                                                     View Original Content
                                                 </a>
                                             </div>

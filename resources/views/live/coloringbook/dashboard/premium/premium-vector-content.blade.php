@@ -46,11 +46,11 @@
                             <div class="card-body">
                                 <div class="row align-items-center">
                                     <div class="col-6">
-                                        <img src="{{asset('dist/static/coloring-book/categories/new.png')}}"
+                                        <img src="{{asset('dist/static/coloring-book/premium-categories/thumbs-header/premium-category-thumbs_1.png')}}"
                                              alt="" class="rounded">
                                     </div>
                                     <div class="col">
-                                        <h3 class="card-title mb-1">Premium Category name maxx allowed character are 32
+                                        <h3 class="card-title mb-1">Premium Category Title maxx allowed character are 32
                                         </h3>
 
                                         <div class="text-muted">
@@ -86,7 +86,7 @@
                     <div class="col-lg-4">
                         <div class="card">
                             <div class="card-body">
-                                <div class="card-title bg-pink-lt">Category Details</div>
+                                <div class="card-title bg-pink-lt">'Premium Category' : Details</div>
                                 <div class="mb-2">
                                     Created at: <strong class="bg-green-lt">2020-01-05 16:42:29 UTC</strong>
                                 </div>
@@ -125,7 +125,7 @@
                     <!-- Vector-1 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/1b73704b282a8ec6.jpg')}}"
+                            <img src="{{asset('dist/static/coloring-book/premium-categories/thumb-content/premium-content-thumb_1.png')}}"
                                  class="card-img-top d-block">
 
                             <div class="card-body">
@@ -179,7 +179,7 @@
                     <!-- Vector-2 -->
                     <div class="col-sm-6 col-lg-4">
                         <div class="card card-sm">
-                            <img src="{{asset('dist/static/coloring-book/vector-contents/thumbs/3d2998219313cd37.jpg')}}"
+                            <img src="{{asset('dist/static/coloring-book/premium-categories/thumb-content/premium-content-thumb_1.png')}}"
                                  class="card-img-top d-block">
 
                             <div class="card-body">

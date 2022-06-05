@@ -65,9 +65,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/premium_animals.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/thumbs-header/premium-category-thumbs_1.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Daily New Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">'Premium Category' title max 32 char</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">18 Contents uploaded</span></h3>
                                         <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
@@ -103,9 +103,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/premium_food_bg.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/thumbs-header/premium-category-thumbs_2.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category People Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">'Premium Category' title max 32 char</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">18 Contents uploaded</span></h3>
                                         <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
@@ -138,9 +138,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/premium_funy_bg.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/thumbs-header/premium-category-thumbs_3.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Sports Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">'Premium Category' Title Maxx 32 char</h3>
 
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
@@ -175,9 +175,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/premium_mandala.jpg')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/thumbs-header/premium-category-thumbs_4.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Space Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">'Premium Category' Title Maxx 32 char &nbsp;</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
                                         <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
@@ -208,9 +208,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/categories/flowers.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/thumbs-header/premium-category-thumbs_5.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Flowers Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">'Premium Category' Title Maxx 32 char</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
                                         <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
@@ -241,9 +241,9 @@
                             <div class="col-12">
                                 <div class="card">
                                     <div class="card-img-top img-responsive img-responsive-16by9"
-                                         style="background-image: url('{{asset('dist/static/coloring-book/categories/festival_new.png')}}')"></div>
+                                         style="background-image: url('{{asset('dist/static/coloring-book/premium-categories/thumbs-header/premium-category-thumbs_6.png')}}')"></div>
                                     <div class="card-body">
-                                        <h3 class="card-title">Category Festivals Maxx 32 character &nbsp;</h3>
+                                        <h3 class="card-title">'Premium Category' Title Maxx 32 char</h3>
 
                                         <h3 class="card-subtitle"><span class="bg-green-lt">17 Contents uploaded</span></h3>
                                         <h3 class="card-subtitle"><span class="bg-purple-lt">Premium Category Price : INR 100</span></h3>
