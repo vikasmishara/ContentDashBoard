@@ -16,6 +16,7 @@
                     <li class="nav-item"><a class="nav-link" href="#" ><span class="nav-link-title">Content Grid</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.dashboard.explore.explore-categories')}}" ><span class="nav-link-title">Explore Categories</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.dashboard.premium.categories')}}" ><span class="nav-link-title">Premium Categories</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.dashboard.home-sliders')}}" ><span class="nav-link-title">Home Sliders</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.users.synced-users')}}" ><span class="nav-link-title">Users</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.users.reported-content')}}" ><span class="nav-link-title">Reported Content</span></a></li>
                     <li class="nav-item"><a class="nav-link" href="{{route('live.coloringbook.users.blocked-users')}}" ><span class="nav-link-title">Blocked Users</span></a></li>

@@ -24,7 +24,7 @@
                     <label class="form-label">
                         Password
                 <span class="form-label-description">
-                  <a href="{{route('live.coloringbook.authentication.forget-password')}}">I forgot my coloring book password</a>
+                  <a href="{{route('live.coloringbook.authentication.forget-password')}}">Ask admin to change or reset password</a>
                 </span>
                     </label>
                     <div class="input-group input-group-flat">
@@ -48,13 +48,13 @@
             </div>
             <div class="hr-text">or</div>
             <div class="card-body">
-                <div class="row">
-                    <div class="col"><a href="{{route('live.index')}}" class="btn btn-white w-100">Back to Main DashBoard</a></div>
-                </div>
+                <div class="col"><a href="#" class="btn btn-white w-100">
+                        Contact Admin
+                    </a></div>
             </div>
         </form>
         <div class="text-center text-muted mt-3">
-            Don't have coloring book account yet? <a href="{{route('live.coloringbook.authentication.sign-up')}}" tabindex="-1">Sign up for coloring book</a>
+            Don't have coloring book account yet? <a href="#" tabindex="-1">Ask Admin for login credentials</a>
         </div>
     </div>
 </div>

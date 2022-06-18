@@ -29,6 +29,8 @@ Route::get('/coloring-book-main-categories',[DashboardController::class, 'colori
 Route::get('/coloring-book-categories-content',[DashboardController::class, 'coloring_book_main_vector_content'])->name('live.coloringbook.dashboard.vector-content');
 Route::get('/coloring-book-categories-content-details',[DashboardController::class, 'coloring_book_main_vector_content_details'])->name('live.coloringbook.dashboard.vector-content-details');
 
+Route::get('/coloring-book-home-sliders',[DashboardController::class, 'coloring_book_home_sliders'])->name('live.coloringbook.dashboard.home-sliders');
+
 Route::get('/coloring-book-synced-users',[DashboardController::class, 'coloring_book_synced_users'])->name('live.coloringbook.users.synced-users');
 Route::get('/coloring-book-blocked-users',[DashboardController::class, 'coloring_book_blocked_users'])->name('live.coloringbook.users.blocked-users');
 Route::get('/coloring-book-deleted-users',[DashboardController::class, 'coloring_book_deleted_users'])->name('live.coloringbook.users.deleted-users');
@@ -48,3 +50,9 @@ Route::get('/changelog',[DashboardController::class, 'changelog'])->name('live.p
 Route::get('/changelog_app',[DashboardController::class, 'changelog_app'])->name('live.pages.changelog_app');
 Route::get('/privacy_policy',[DashboardController::class, 'privacy_policy'])->name('live.pages.privacy_policy');
 Route::get('/terms_conditions',[DashboardController::class, 'terms_conditions'])->name('live.pages.terms_conditions');
+
+Route::get('/documentation',[DashboardController::class, 'documentation'])->name('live.pages.docs.documentation');
+Route::get('/module_M1',[DashboardController::class, 'module_M1'])->name('live.pages.docs.module_M1');
+Route::get('/module_M2',[DashboardController::class, 'module_M2'])->name('live.pages.docs.module_M2');
+Route::get('/module_M3',[DashboardController::class, 'module_M3'])->name('live.pages.docs.module_M3');
+Route::get('/module_M4',[DashboardController::class, 'module_M4'])->name('live.pages.docs.module_M4');

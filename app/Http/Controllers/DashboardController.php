@@ -25,6 +25,9 @@ class DashboardController extends Controller
     public function coloring_book_main_categories(){return view('live.coloringbook.dashboard.categories');}
     public function coloring_book_main_vector_content(){return view('live.coloringbook.dashboard.vector-content');}
     public function coloring_book_main_vector_content_details(){return view('live.coloringbook.dashboard.vector-content-details');}
+
+    public function coloring_book_home_sliders(){return view('live.coloringbook.dashboard.home-sliders');}
+
     public function coloring_book_synced_users(){return view('live.coloringbook.users.synced-users');}
     public function coloring_book_blocked_users(){return view('live.coloringbook.users.blocked-users');}
     public function coloring_book_deleted_users(){return view('live.coloringbook.users.deleted-users');}
@@ -43,4 +46,9 @@ class DashboardController extends Controller
     public function changelog_app(){return view('live.pages.changelog_app');}
     public function privacy_policy(){return view('live.pages.privacy_policy');}
     public function terms_conditions(){return view('live.pages.terms_conditions');}
+    public function documentation(){return view('live.pages.docs.documentation');}
+    public function module_M1(){return view('live.pages.docs.module_M1');}
+    public function module_M2(){return view('live.pages.docs.module_M2');}
+    public function module_M3(){return view('live.pages.docs.module_M3');}
+    public function module_M4(){return view('live.pages.docs.module_M4');}
 }

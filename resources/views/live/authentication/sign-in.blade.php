@@ -32,7 +32,7 @@
                     <label class="form-label">
                         Password
                 <span class="form-label-description">
-                  <a href="{{route('live.authentication.forget-password')}}">I forgot password</a>
+                  <a href="{{route('live.authentication.forget-password')}}">Forgot Password : Ask Admin to Change</a>
                 </span>
                     </label>
                     <div class="input-group input-group-flat">
@@ -63,9 +63,6 @@
                 </div>
             </div>
         </form>
-        <div class="text-center text-muted mt-3">
-            Don't have account yet? <a href="{{route('live.authentication.sign-up')}}" tabindex="-1">Sign up</a>
-        </div>
     </div>
 </div>
 <!-- Libs JS -->
