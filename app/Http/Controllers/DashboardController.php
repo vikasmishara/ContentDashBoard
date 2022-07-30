@@ -51,4 +51,5 @@ class DashboardController extends Controller
     public function module_M2(){return view('live.pages.docs.module_M2');}
     public function module_M3(){return view('live.pages.docs.module_M3');}
     public function module_M4(){return view('live.pages.docs.module_M4');}
+
 }
